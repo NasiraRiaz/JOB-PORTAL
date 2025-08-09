@@ -1,0 +1,17 @@
+<!-- src/assets/topographic-background.svg -->
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="p" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M 100,0 A 100,100 0 0 1 0,100" stroke="#3D428B" stroke-width="1.5" fill="none"/>
+      <path d="M 200,100 A 100,100 0 0 1 100,200" stroke="#3D428B" stroke-width="1.5" fill="none"/>
+      <path d="M 0,100 A 100,100 0 0 0 100,0" stroke="#3D428B" stroke-width="1.5" fill="none"/>
+      <path d="M 100,200 A 100,100 0 0 0 200,100" stroke="#3D428B" stroke-width="1.5" fill="none"/>
+      <path d="M 50,50 A 50,50 0 0 1 0,100" stroke="#3D428B" stroke-width="1" fill="none"/>
+      <path d="M 150,50 A 50,50 0 0 1 100,100" stroke="#3D428B" stroke-width="1" fill="none"/>
+      <path d="M 150,150 A 50,50 0 0 1 100,100" stroke="#3D428B" stroke-width="1" fill="none"/>
+      <path d="M 50,150 A 50,50 0 0 1 100,100" stroke="#3D428B" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#2c2f59"/>
+  <rect width="100%" height="100%" fill="url(#p)"/>
+</svg>

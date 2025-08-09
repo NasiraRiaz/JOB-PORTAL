@@ -1,0 +1,111 @@
+:root {
+  --primary-pink: #ef4444;
+  --primary-pink-dark: #d83a3a;
+  --button-grey: #f0f0f0;
+  --button-grey-hover: #e0e0e0;
+  --text-title: #1a1a1a;
+  --text-body: #333333;
+  --text-meta: #5a6268;
+  --border-color: #e9ecef;
+}
+
+.details-container {
+  max-width: 800px;
+  margin: 2rem auto 4rem auto;
+  padding: 2.5rem 3rem;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+}
+
+.details-container .btn-back {
+  background-color:#6fa8cd; 
+  color: var(--text-dark);
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.details-container .btn-back:hover {
+  background-color: #828588;
+}
+
+.apply-wrapper {
+  margin-top: 2.5rem;
+}
+
+.btn-apply-now {
+  background-color: var(--primary-action-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-apply-now:hover {
+  background-color: var(--primary-action-color);
+  color: white;
+}
+
+.details-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color:#1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.details-employer,
+.details-location,
+.details-meta {
+  font-size: 1rem;
+  color: var(--text-meta);
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
+}
+
+.posted-date {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.details-section {
+  margin-top: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.80rem;
+  font-weight: 600;
+  color:#1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.description-text,
+.details-list {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-body);
+  white-space: pre-wrap;
+}
+
+.description-text p {
+  margin-bottom: 1em;
+}
+
+.details-list {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.details-list li {
+  margin-bottom: 0.75rem;
+}
