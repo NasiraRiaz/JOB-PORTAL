@@ -1,0 +1,39 @@
+.job-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.job-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: contain;
+  border: 1px solid #eee;
+}
+.job-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.company-name {
+  color: #6b7280;
+}
+.location, .posted-at {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+.job-card .btn-primary {
+  background-color: var(--primary-action-color);
+  border-color: var(--primary-action-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.job-card .btn-primary:hover {
+  background-color: var(--primary-action-hover);
+  border-color: var(--primary-action-hover);
+  transform: translateY(-2px);
+}

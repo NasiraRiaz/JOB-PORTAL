@@ -1,0 +1,47 @@
+.header {
+  background-color: #0A2647;
+  color: white;
+}
+
+.navbar {
+    padding: 1.5rem 1rem !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    height: 45px;
+    margin-right: 15px;
+}
+
+.brand-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #212529;
+}
+
+.brand-tagline {
+    font-size: 0.8rem;
+    color: #6c757d;
+    line-height: 1;
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    margin: 0 10px;
+}
+
+.navbar .btn {
+    padding: 0.5rem 1.2rem;
+}
