@@ -8,7 +8,7 @@ CareerCanvas is a responsive, feature-rich job portal built with React. It provi
 
 Click the image below to watch a full video demonstration of the application's features, from searching and filtering to viewing job details.
 
-[![Video Walkthrough](project-showcase/screenshot-homepage.png)](project-showcase/careercanvas-demo.mp4)
+[![Video Walkthrough](project-showcase/screenshot-homepage.png)](project-showcase/CareerCanvas-demo.mp4)
 
 ---
 
